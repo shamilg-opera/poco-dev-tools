@@ -16,8 +16,8 @@ echo Creating containers...
 
 echo Creating tables and filling test data...
 
-./aju.sh db build all -t
-./aju.sh db local-rebuild -t -d
+./aju.sh db build all -t -d
+#./aju.sh db local-rebuild -t -d
 
 echo DB has been rebuilt.
 
